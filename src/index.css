@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Sigmar&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  background: #213448;
+  font-family: outfit;
+}
+
+.todo-container {
+  background: #547792;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 500px;
+  margin: auto;
+  margin-top: 80px;
+  padding: 10px;
+  padding-bottom: 30px;
+}
+
+.logo {
+  color: #ecefca;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.todo-container .add{
+  background: #213448;
+  color:#ecefca ;
+}
+.todo-container .removeBtn{
+  background: #213448;
+  color:#ecefca ;
+  /* padding: 5px; */
+  border-radius: 10px;
+}
