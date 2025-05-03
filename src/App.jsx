@@ -9,8 +9,8 @@ const App = () => {
   const [error, setError] = useState(false);
 
   const addTask = () => {
-    if (!taskInput || !taskInput.trim()) {
-      setError(true)
+    if (!taskInput.trim()) {
+      setError(true);
       return;
     }
 
@@ -76,7 +76,7 @@ const App = () => {
         />
         <button
           onClick={addTask}
-          className="add px-5 py-2 rounded-xl cursor-pointer bg-[#ecefca] text-black"
+          className="add px-5 py-2 rounded-xl cursor-pointer bg-[#ecefca]"
         >
           ADD
         </button>
@@ -109,7 +109,7 @@ const App = () => {
           );
         })}
       </ul>
-      {error ? <Popup error={error} setError={setError} /> : ""}
+      {error && <Popup error={error} setError={setError} />}
     </div>
   );
 };
